@@ -1,34 +1,19 @@
-# Rust & Python developer
+# Arthur — Rust & Python developer
 
-I build backend tools, networking software, and developer utilities.
+I build backend APIs, automation scripts, and command-line tools. I work mainly with Rust and Python, with TypeScript for interfaces when a project needs one.
 
-I mainly work with Rust and Python. I also use databases, async APIs,
-WebSockets, Linux servers, Docker, and TypeScript when a project needs them.
+## Selected work
 
-## Stack
+| Project | What it shows |
+| --- | --- |
+| **MindPro** · personal product | A CRM for private tutors with a Rust API, a Python reporting service, a desktop app for tutors, and a web portal for students. |
+| [**nimesvc**](https://github.com/nimeview/nimesvc) | A Rust CLI that turns typed API definitions into server projects and OpenAPI specs. |
+| [**macmgr**](https://github.com/nimeview/macmgr) | A Rust CLI and terminal UI for managing macOS services and configuration, with diagnostics and recovery snapshots. |
+| [**MRLess**](https://github.com/nimeview/MRLess) | An experimental local mesh messenger with a [Rust peer node](https://github.com/nimeview/MRLess_server) and a TypeScript UI. |
+| [**Flux**](https://github.com/nimeview/Flux) | A reactive programming language and toolchain built in Rust, with a VM, formatter, and language server. |
 
-- Rust and Python
-- APIs, WebSockets, async services, and network protocols
-- PostgreSQL, MySQL, Redis, Kafka, and MinIO/S3
-- Linux, Docker, Caddy, and VPS deployments
-- TypeScript, React, SolidJS, and Tauri
+## What I work on
 
-I use Claude and ChatGPT to speed up research, prototypes, boilerplate, and
-tests. I review the result and remain responsible for the architecture,
-security, and final code.
-
-## Projects
-
-- [macmgr](https://github.com/nimeview/macmgr) — Rust TUI/CLI for managing macOS
-  services, packages, configs, themes, and diagnostics.
-- [Flux](https://github.com/nimeview/Flux) — experimental programming language
-  and compiler toolchain in Rust with a VM, JIT, formatter, CLI, and LSP.
-- [nimesvc](https://github.com/nimeview/nimesvc) — Rust DSL and CLI for creating
-  typed HTTP, gRPC, WebSocket, and event-driven services.
-- [MRLess](https://github.com/nimeview/MRLess) — local mesh messenger with a
-  SolidJS client and a Rust peer node.
-- [NimeNetwork](https://github.com/nimeview/NimeNetwork) — Rust platform for mesh
-  networking, internal DNS, service discovery, and operations.
-
-The repositories are focused on practical systems work, networking, and tools
-that turn technical ideas into working software.
+- **Backend** — REST and WebSocket APIs, Axum, FastAPI, PostgreSQL, and Redis
+- **Automation** — Python scripts, Rust CLIs, and tools for repeatable workflows
+- **Deployment** — Docker-based services on Linux
