@@ -1,34 +1,48 @@
 # Rust & Python developer
 
-I build backend tools, networking software, and developer utilities.
+**Backend systems, network services, and developer tooling.** I build things that
+run unattended on a Linux box and don't fall over: APIs, protocol and mesh work,
+CLIs, and whole products end to end.
 
-I mainly work with Rust and Python. I also use databases, async APIs,
-WebSockets, Linux servers, Docker, and TypeScript when a project needs them.
+Currently building **[MindPro](https://mindpro.pro)** — a scheduling and
+client-management workspace for private tutors. Solo: architecture, backend,
+desktop builds for Windows/macOS/Linux, web client, deployment.
+
+**Open to contract work.** → [@nimewe](https://t.me/nimewe)
+
+---
+
+## What I do
+
+- **Backend services -** async APIs, WebSockets, gRPC, event-driven pipelines
+- **Networking -** mesh, peer discovery, internal DNS, protocol implementation
+- **Developer tooling -** CLIs, TUIs, language toolchains, LSP servers
+- **Deployment -** Docker, Caddy, VPS hardening, backups, self-hosted stacks
 
 ## Stack
 
-- Rust and Python
-- APIs, WebSockets, async services, and network protocols
-- PostgreSQL, MySQL, Redis, Kafka, and MinIO/S3
-- Linux, Docker, Caddy, and VPS deployments
-- TypeScript, React, SolidJS, and Tauri
-
-I use Claude and ChatGPT to speed up research, prototypes, boilerplate, and
-tests. I review the result and remain responsible for the architecture,
-security, and final code.
+`Rust` `Python` `TypeScript` `PostgreSQL` `MySQL` `Redis` `Kafka` `MinIO/S3`
+`Linux` `Docker` `Caddy` `React` `SolidJS` `Tauri`
 
 ## Projects
 
-- [macmgr](https://github.com/nimeview/macmgr) — Rust TUI/CLI for managing macOS
-  services, packages, configs, themes, and diagnostics.
-- [Flux](https://github.com/nimeview/Flux) — experimental programming language
-  and compiler toolchain in Rust with a VM, JIT, formatter, CLI, and LSP.
-- [nimesvc](https://github.com/nimeview/nimesvc) — Rust DSL and CLI for creating
-  typed HTTP, gRPC, WebSocket, and event-driven services.
-- [MRLess](https://github.com/nimeview/MRLess) — local mesh messenger with a
-  SolidJS client and a Rust peer node.
-- [NimeNetwork](https://github.com/nimeview/NimeNetwork) — Rust platform for mesh
-  networking, internal DNS, service discovery, and operations.
+| Project | What it is |
+| --- | --- |
+| **[MindPro](https://mindpro.pro)** | Production SaaS for tutors: schedule, student records, finances, homework, chat. Tauri desktop builds and web client. |
+| **[Flux](https://github.com/nimeview/Flux)** | Programming language and toolchain in Rust — lexer, parser, bytecode VM, JIT, formatter, LSP. |
+| **[nimesvc](https://github.com/nimeview/nimesvc)** | DSL and CLI that generate typed HTTP, gRPC and WebSocket services from one spec. |
+| **[NimeNetwork](https://github.com/nimeview/NimeNetwork)** | Mesh networking: peer discovery, internal DNS, service discovery, operations tooling. |
+| **[MRLess](https://github.com/nimeview/MRLess)** | Local-first mesh messenger — SolidJS client over a Rust peer node. |
+| **[macmgr](https://github.com/nimeview/macmgr)** | macOS management CLI/TUI: services, packages, configs, snapshots, diagnostics. |
 
-The repositories are focused on practical systems work, networking, and tools
-that turn technical ideas into working software.
+## How I work
+
+I use Claude and ChatGPT for research, prototypes, boilerplate and tests. I review
+the output, and architecture, security and final code stay mine.
+
+Small surface area, clear interfaces, tests where they matter, no dependency you
+can't justify.
+
+---
+
+**Contact:** [@nimewe](https://t.me/nimewe) · nonime70@outlook.com — or open an issue.
